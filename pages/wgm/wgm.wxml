@@ -1,2 +1,18 @@
 <!--pages/wgm/wgm.wxml-->
-<text>pages/wgm/wgm.wxml</text>
+<text>我是普通的文本</text>
+<view>{{ msg }}</view>
+
+
+<!-- for循环 -->
+<view>
+    <view wx:for="{{movies}}" wx:key="index">
+        {{item}}-{{index}}
+    </view>
+</view>
+
+<!-- 计数器 -->
+<view class="counter">
+    <view>counter:{{counter}}</view>
+    <button size="mini" bind:tap="increment">+1</button>
+    <button size="mini" bind:tap="decrement">-1</button>
+</view>

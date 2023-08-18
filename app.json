@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/wgm/wgm",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/favor/favor",
-    "pages/wgm/wgm"
+    "pages/favor/favor"
   ],
   "window": {
     "backgroundTextStyle": "light",
